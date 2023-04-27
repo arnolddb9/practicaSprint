@@ -1,4 +1,4 @@
-package model;
+package com.pfcti.practicaSprint.model;
 
 import jakarta.persistence.*;
 import lombok.Getter;
@@ -22,7 +22,7 @@ public class Cliente {
     @Column
     private String telefono;
     @Column
-    private String paisrecidencia;
+    private String paisresidencia;
     @Column
     private String paisnacimiento;
     @Column

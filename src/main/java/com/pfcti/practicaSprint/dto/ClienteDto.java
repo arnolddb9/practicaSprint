@@ -1,4 +1,4 @@
-package dto;
+package com.pfcti.practicaSprint.dto;
 
 import lombok.Data;
 
@@ -12,7 +12,7 @@ public class ClienteDto {
     private String apellido;
     private String cedula;
     private String telefono;
-    private String paisrecidencia;
+    private String paisresidencia;
     private String paisnacimiento;
     private String direccion;
     private Boolean estado;
